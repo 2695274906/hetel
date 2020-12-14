@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hetel.iml" filepath="$PROJECT_DIR$/hetel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/hotel-saas.iml" filepath="$PROJECT_DIR$/java/hotel-saas.iml" />
     </modules>
   </component>
 </project>
