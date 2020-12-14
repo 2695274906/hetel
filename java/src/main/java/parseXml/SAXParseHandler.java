@@ -1,4 +1,4 @@
-package parseXml.bookXml;
+package parseXml;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

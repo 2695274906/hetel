@@ -1,4 +1,4 @@
-package parseXml.bookXml;
+package parseXml;
 
 public class Table {
         private String TableName;

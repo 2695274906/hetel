@@ -1,4 +1,4 @@
-package parseXml.bookXml;
+package parseXml;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
