@@ -47,14 +47,5 @@ public class Table {
             this.PLATFORM_ID = PLATFORM_ID;
         }
 
-    @Override
-    public String toString() {
-        return "Table{" +
-                "TableName='" + TableName + '\'' +
-                ", EXTN_DN='" + EXTN_DN + '\'' +
-                ", EXTN_TYPE='" + EXTN_TYPE + '\'' +
-                ", PLATFORM_ID='" + PLATFORM_ID + '\'' +
-                ", status='" + status + '\'' +
-                '}';
-    }
+
 }
