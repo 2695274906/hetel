@@ -24,7 +24,7 @@ public class Table {
             TableName = tableName;
         }
 
-        public String getEXTN_DN() {
+        public String  getEXTN_DN() {
             return EXTN_DN;
         }
 
