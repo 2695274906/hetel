@@ -7,7 +7,7 @@ public class Table {
         private String PLATFORM_ID;
         private String status;
 
-        public String getStatus() {
+        public  String getStatus() {
             return status;
         }
 
