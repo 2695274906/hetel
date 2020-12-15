@@ -1,9 +1,28 @@
 package Test;
 
-public class Demo1 {
+import com.qcloud.cos.demo.Demo;
+
+public class Demo1 implements Runnable{
     public static void main(String[] args) {
         runThreadByLambda();
 //        runThreadByInnerClass();
+        /*for(int i=0;i<20;i++){
+            new Thread(()->{
+                System.out.println(Thread.currentThread().getName());
+            },String.valueOf(i));
+        }*/
+
+        /*for(int i=0;i<20;i++){
+            new Thread(()->{
+                System.out.println(Thread.currentThread().getName());
+            },String.valueOf(i));
+        }*/
+
+        Demo1 demo1 =new Demo1();
+        Thread thread =new Thread(demo1);
+        thread.start();
+
+
     }
 
     public static void runThreadByLambda() {
@@ -17,6 +36,13 @@ public class Demo1 {
         new Thread(runnable).start();
     }
 
+    @Override
+    public void run() {
+        System.out.println("dddd");
+    }
+
+
+
    /* public static void runThreadByInnerClass() {
         Runnable runnable = new Runnable() {
 
@@ -28,5 +54,10 @@ public class Demo1 {
         };
         new Thread(runnable).start();
     }*/
+
+
+
+
+
 }
 
