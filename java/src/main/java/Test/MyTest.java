@@ -10,7 +10,7 @@ public class MyTest  implements Serializable{
     private  String name="SheepMu";
     private transient int age=24;
     private Book book=new Book();
-    public  static void fan()//反序列的过程
+    public  static void fan()// 反序列的过程
     {
         ObjectInputStream oin = null;//局部变量必须要初始化
         try
