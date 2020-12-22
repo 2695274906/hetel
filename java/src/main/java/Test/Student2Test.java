@@ -146,7 +146,7 @@ public class Student2Test {
         System.out.println(extCl);
         System.out.println(bootCl); // 返回：null ，对java 不可见
 
-        Person person = new Person(12,"112");
+        Person person = new Person("12",18);
 
 
     }

@@ -9,7 +9,7 @@ public class MyTest  implements Serializable{
     private static final long serialVersionUID = 1L;
     private  String name="SheepMu";
     private transient int age=24;
-    private Book book=new Book();
+
     public  static void fan()// 反序列的过程
     {
         ObjectInputStream oin = null;//局部变量必须要初始化
@@ -33,7 +33,6 @@ public class MyTest  implements Serializable{
         }
         System.out.println("name:"+mts.name);
         System.out.println("age:"+mts.age);
-        System.out.println("book:"+mts.book.getName());
     }
     public static void main(String[] args) {
         try
