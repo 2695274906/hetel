@@ -19,7 +19,6 @@ Welcome<br/><input id="text" type="text"/>
     //判断当前浏览器是否支持WebSocket
     var logId=1;
     if ('WebSocket' in window) {
-        // /v2/ws/machineInspectionEndpoint
         websocket = new WebSocket("ws://localhost:8080/v2/ws/machineInspectionEndpoint?logId"+logId);
     }
     else {

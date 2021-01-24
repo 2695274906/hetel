@@ -11,9 +11,11 @@ import javax.websocket.server.ServerEndpoint;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+
+
 @ServerEndpoint(value= "/v2/ws/machineInspectionEndpoint")
-//@ServerEndpoint(value= "v2"+"/ws/machineInspectionEndpoint",encoders={})
 @Component
+//@Service
 public class WebSocketTest {
 
     Logger logger = LoggerFactory.getLogger(WebSocketTest.class);
@@ -64,4 +66,7 @@ public class WebSocketTest {
     public static Map<String, Map<String, Session>> getConnetionMap() {
         return SESSIONMAP;
     }
+
+
+
 }

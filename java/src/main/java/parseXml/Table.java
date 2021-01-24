@@ -48,5 +48,33 @@ public class Table {
             this.PLATFORM_ID = PLATFORM_ID;
         }
 
+    public static void main(String[] args) {
+        String ip=" 192.168.1.1";
+       String  ippp = ip.trim();
+        System.out.println(ippp);
+/*//        int aa = ;
+
+        */
+/*if(Integer.parseInt(a)==1){
+            System.out.println("erqe");
+        }else{
+            System.out.println("ddd");
+        }
+*/
+        String[] ipArray =ip.split(",");
+        StringBuilder url =new StringBuilder();
+        String http="http://";
+        url.append(http);
+        url.append(ip);
+
+
+        System.out.println(url);
+
+
+
+
+
+    }
+
 
 }

@@ -38,6 +38,8 @@ public class ReadAndWriteTxtByFile {
 
     private static void writeTxtFile(String filepath){
         File file=new File(filepath);
+        boolean boo =file.isFile();
+        System.out.println(boo);
         BufferedWriter writer = null;
         try {
             if(file.isFile()&&!file.exists()){

@@ -105,6 +105,8 @@ public class Book{
         this.author = author;
     }
 
+
+
     public static void main(String[] args) {
         Book book = new Book("na","sdd");
         book.setAuthor("1");
@@ -113,13 +115,21 @@ public class Book{
         book.setPrice(100);
         book.setYear(2020);
 
-        System.out.println("pppppp"+book.toString());
+        String bookStr =book.toString();
+        System.out.println("p"+bookStr);
+
+        Book  book2  =JSONObject.parseObject(bookStr,Book.class);
+
+        System.out.println(book2.getPrice());
+
+
+
 
 
         /*Object obj = JSONArray.toJSON(p);
         String json = obj.toString();
         System.out.println("将Person对象转成json:" + json);*/
-        List<Book> list = new ArrayList<>();
+  /*      List<Book> list = new ArrayList<>();
         Map<String,Object> mapList = new HashMap<>();
         mapList.put("作者",book.author);
         mapList.put("书名",book.name);
@@ -130,6 +140,6 @@ public class Book{
         System.out.println(jsonArray.toString());
 //        System.out.println(list2);
         String jsonStr = JSONObject.toJSONString(list);
-        System.out.println(jsonStr);
+        System.out.println(jsonStr);*/
     }
 }
