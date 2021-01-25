@@ -10,7 +10,6 @@ import java.util.function.Function;
 @Accessors(chain = true)*/
 public class Book {
 
-    //tttt
     private  int id;
     private  String bookName;
     private  double price;
