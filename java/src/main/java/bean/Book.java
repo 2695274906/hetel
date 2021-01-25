@@ -1,13 +1,13 @@
 package bean;
 
 
-import lombok.Data;
-import lombok.experimental.Accessors;
+/*import lombok.Data;
+import lombok.experimental.Accessors;*/
 
 import java.util.function.Function;
 
-@Data
-@Accessors(chain = true)
+/*@Data
+@Accessors(chain = true)*/
 public class Book {
 
     private  int id;
