@@ -2,6 +2,7 @@ package bean;
 
 import java.io.Serializable;
 
+//maintest111
 public class Card implements Serializable{
     /** 初始化方法 */
     public  void  initCard() {
