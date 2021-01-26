@@ -10,9 +10,10 @@ import java.util.function.Function;
 @Accessors(chain = true)*/
 
 //maintest更新了1111
-//maintest更新了555
+//maintest更新了000
 public class Book {
 
+    //7777
     private  int id;
     private  String bookName;
     private  double price;
