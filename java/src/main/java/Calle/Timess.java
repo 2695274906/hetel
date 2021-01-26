@@ -64,6 +64,9 @@ public class Timess {
           queryEndCalendar.add(Calendar.DAY_OF_YEAR,-1);
           System.out.println("时间为"+format3.format(queryEndCalendar.getTime())+"天");
       }*/
+        /**
+         * 清楚方法大师傅的说法是
+         */
 
         for(int i=0;i<5;i++){
             queryEndCalendar.add(Calendar.HOUR_OF_DAY,1);
