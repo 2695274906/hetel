@@ -4,10 +4,13 @@ package bean;
 /*import lombok.Data;
 import lombok.experimental.Accessors;*/
 
+import lombok.Data;
+import lombok.experimental.Accessors;
+
 import java.util.function.Function;
 
-/*@Data
-@Accessors(chain = true)*/
+@Data
+@Accessors(chain = true)
 
 //maintest更新了1111
 //maintest更新了000
