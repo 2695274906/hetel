@@ -8,6 +8,9 @@ import java.util.Date;
  */
 public class MyTimer extends Thread{
 
+    /**
+     * 时间
+     */
     private Long time ;
 
     public MyTimer(Long time) {
