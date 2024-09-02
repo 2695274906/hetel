@@ -21,8 +21,6 @@ public class CircleAdd {
         map2.put("1", "C");
         map1.putAll(map2);
         System.out.println(map1);
-
-
        Set<String> setStr     =new HashSet<>();
 
         System.out.println(setStr.size());
